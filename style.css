@@ -1,0 +1,213 @@
+body {
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+h3{
+  margin-left: 15px;
+}
+
+.container { /* Стилі для контейнера */
+    max-width: 1400px; /* Ширина контейнера */
+    margin: 20px auto; /* Центрування контейнера */
+    background-color: #fff; /* Фон контейнера */
+    padding: 20px; /* Внутрішній відступ контейнера */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тінь контейнера */
+}
+
+main {
+    padding: 0; /* Видалення дефолтного відступу */
+}
+
+.article {
+    margin-bottom: 20px;
+    padding: 20px; /* Додавання відступу до статті */
+    border-radius: 5px; /* Заокруглення кутів статті */
+    background-color: #f8f8f8; /* Фон статті */
+}
+
+.article img {
+  display: block;
+  margin: 0 auto;
+  height: 600px;
+  margin-bottom: 10px;
+
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    /* margin: -20px; */
+}
+
+header {
+    display: grid; /* Включає режим Grid */
+    grid-template-columns: auto 1fr; /* Розподіл стовпців Grid */
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex; /* Включає режим Flexbox */
+    align-items: center; /* Вирівнює елементи по вертикальній осі */
+    justify-content: space-between; /* Розподіляє елементи по краях */
+    background-color: #f0f0f0; /* Фон header */
+    padding: 10px; /* Внутрішній відступ */
+  }
+
+  .navbar a {
+    font-size: 20px; /* Або інше бажане значення */
+  }
+  
+  .logo {
+    margin-right: 20px; /* Додає відступ між іконкою та панеллю навігації */
+    width: 75px;;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  .article p {
+    font-size: 20px; /* Або інше бажане значення */
+  }
+  
+  /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav p {
+  margin-bottom: 2px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.my-list li {
+  margin-bottom: 5px; /* Відстань між підпунктами */
+  padding: 5px; /* Внутрішній відступ */
+  font-size: 18px;
+}
+.content p{
+  margin-left: 15px;
+  font-size: 20px;
+}
+  
+.image-container {
+  display: flex; /* Розмістити елементи в ряд */
+  justify-content: space-evenly; /* Розподілити вільний простір між зображеннями */
+  margin-top: 20px; /* Відстань зверху 20px */
+  margin-bottom: 15px;
+}
+
+/* Стилі для зображень */
+.image2_1 {
+  max-width: 50%; /* Максимальна ширина 48% */
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px; /* Відстань знизу 20px */
+}
+
+.image-container2_6 {
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Стилі для зображення з правого боку */
+.image2_6 {
+  max-width:25%;
+  height: auto;
+  margin-left: 20px; /* Додано відстань зліва */
+}
+
+#youtube-video {
+  display: block;
+  margin: 0 auto;
+}
+
+.programs {
+  max-width: 100%; /* Максимальна ширина 48% */
+  height: 600px;
+  width: 1200px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+  

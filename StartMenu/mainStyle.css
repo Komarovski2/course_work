@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
